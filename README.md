@@ -2,6 +2,10 @@
 
 An MCP (Model Context Protocol) server for scanning AI-related dotfiles and configuration files, and expose them to the agent tool.
 
+<a href="https://glama.ai/mcp/servers/@druellan/llmdotfiles-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@druellan/llmdotfiles-mcp/badge" alt="LLMDotfiles Server MCP server" />
+</a>
+
 ## Overview
 
 This MCP server provides access to a variety of dotfiles and configuration resources that help LLMs understand project context and guidelines.
