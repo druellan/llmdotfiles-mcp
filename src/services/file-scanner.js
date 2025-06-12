@@ -10,8 +10,7 @@ class FileScanner {
   // Files to scan in project root
   #filesToScan = [
     'llms.txt',
-    'ai',
-    'instructions.md',
+    'ai-instructions.md',
     'project',
     'context.md',
     '.github/copilot-instructions.md',
