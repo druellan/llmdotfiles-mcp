@@ -5,7 +5,7 @@ An MCP (Model Context Protocol) server for scanning AI-related dotfiles and conf
 ## Overview
 
 This MCP server provides access to a variety of dotfiles and configuration resources that help LLMs understand project context and guidelines.
-This is an experimental project that seek to detect and exposa all the different rules, guidelines, settings and configuration files the different agentic extensions make use of. This also includes the llm.txt proposal.
+This is an experimental project that seek to detect and expose all the different rules, guidelines, settings and configuration files the different agentic extensions make use of. This also includes the llms.txt proposal.
 
 ## Installation
 
@@ -13,7 +13,7 @@ Requires NodeJS 18.x
 
 Clone the project to any local folder you want.
 Do a `npm install` or `pnpm install` to download the dependencies.
-Use it as a project/workspace MCP server, this is an example config file:
+Use it as a project/workspace MCP server, this is an example config file for Claude Desktop:
 
 ```json
 {
@@ -38,8 +38,8 @@ It can work as a global server, but since the project path is required, can only
 
 This server implements the MCP Resources API to provide access to dotfiles:
 
-1. **List Resources**: Automatically scans the project to find available dotfiles
-2. **Read Resources**: Access the content of specific dotfiles using their URIs
+1. **List Resources**: Automatically scans the project to find available dotfiles.
+2. **Read Resources**: Access the content of specific dotfiles.
 3. **Read ALL Resources**: returns the content of all the files detected by the server, concatenated in a single string.
 
 ### Resource URIs
